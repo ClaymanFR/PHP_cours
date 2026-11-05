@@ -24,9 +24,14 @@
     // Code Here
     echo "<a href='resultats.php?nom=PETIT&prenom=Clément'>Dis-moi bonjour !</a>";
 
-
 ?>
+    <br><br>
 
+    <form action="resultats.php" method="post">
+        Prénom : <input type="text" name="prenom" />
+        Nom : <input type="text" name="nom" />
+        <input type="submit" value="Valider" />
+    </form>
 
 
  <h2>Exercice 2 :</h2>
