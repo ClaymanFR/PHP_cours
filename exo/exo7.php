@@ -43,6 +43,22 @@
          resultats.php</code>. Tester votre code par rapport aux conditions de l'<strong>exercice 3 du chapitre 3</strong> !
  </p>
 
+ <?php
+    // Code Here
+    
+?>
+    <br><br>
+
+    <form action="resultats.php" method="post">
+        Prénom : <input type="text" name="prenom" />
+        Nom : <input type="text" name="nom" />
+        Age : <input type="text" name="age" />
+        Sexe : 
+        <input type="radio" name="sexe" value="Homme"> Homme
+        <input type="radio" name="sexe" value="Femme"> Femme
+        <input type="submit" value="Valider" />
+    </form>
+
 
  <?php $content = ob_get_clean(); ?>
 
