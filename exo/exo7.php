@@ -22,7 +22,10 @@
 
  <?php
     // Code Here
-    ?>
+    echo "<a href='resultats.php?nom=PETIT&prenom=Clément'>Dis-moi bonjour !</a>";
+
+
+?>
 
 
 
